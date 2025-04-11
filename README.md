@@ -9,8 +9,8 @@ Para instalar y ejecutar Boardify localmente, sigue estos pasos:
 1. **Clonar el repositorio:**
 
     ```sh
-    https://github.com/damianrodriguez88/TrelloApi.git
-    cd TrelloApi
+    https://github.com/MenendezJuan/Boardify.git
+    cd Boardify
     ```
 
 2. **Restaurar los paquetes NuGet:**
@@ -26,7 +26,7 @@ Para instalar y ejecutar Boardify localmente, sigue estos pasos:
     ```json
     {
       "ConnectionStrings": {
-        "TrelloMySqlConn": "Server=127.0.0.1; User ID=root; Password=33286489; Database=Trello; AllowPublicKeyRetrieval=True;"
+        "TrelloMySqlConn": "Server=127.0.0.1; User ID=root; Password=; Database=; AllowPublicKeyRetrieval=True;"
       }
     }
     ```
