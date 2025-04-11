@@ -1,0 +1,8 @@
+﻿namespace Boardify.Application.Features.Users.Queries.Models
+{
+    public class LoginModel
+    {
+        public string? Email { get; set; }
+        public string? Password { get; set; }
+    }
+}
